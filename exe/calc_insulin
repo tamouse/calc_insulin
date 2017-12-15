@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "calc_insulin"
+
+insulin = CalcInsulin.run(ARGV)
+
+puts "Take #{insulin} units"
